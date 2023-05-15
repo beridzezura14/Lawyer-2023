@@ -1,0 +1,11 @@
+.aboute-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-family: normal;
+}
+.us h3{
+    font-family: normal;
+    margin-top: 50px;
+}

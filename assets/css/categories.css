@@ -1,0 +1,15 @@
+.categories-row{
+    flex-wrap: wrap;
+    border-bottom: none;
+}
+
+.categories-row a{
+    margin-top: 3rem;
+}
+.categories-border {
+    border-radius: 5px;
+}
+.categories-border img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
