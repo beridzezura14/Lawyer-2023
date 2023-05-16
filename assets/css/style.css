@@ -2,7 +2,7 @@
     box-sizing: border-box;
     text-decoration: none;
     color: rgba(83, 54, 0, 0.814);
-  
+    scroll-behavior: smooth;
   }
   
   body {
@@ -155,8 +155,35 @@
     border: 2px solid rgba(255, 166, 0, 0.814);
     transition: 0.5s;
   } 
- 
-/*---------------------------------------------------------------*/
+ /*-------------------------*/
+
+
+ #myBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(147, 114, 78);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10%;
+}
+#myBtn ion-icon{
+  color: cornsilk;
+  font-size: 20px
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+ /*---------------------------------------------------------------*/
 .section-team{
   background-color: rgba(245, 245, 220, 0.888);
 }
@@ -764,6 +791,10 @@
     }
     .person-img-1, .person-img-2{
       border: none;
+    }
+
+    #myBtn{
+      right: 5%;
     }
 
     .law{
